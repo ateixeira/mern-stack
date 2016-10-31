@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ateixeira/mern-stack/issues"
   },
-  "homepage": "https://github.com/ateixeira/mern-stack#readme"
+  "homepage": "https://github.com/ateixeira/mern-stack#readme",
+  "devDependencies": {
+    "webpack": "^1.13.3"
+  }
 }
