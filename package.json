@@ -27,5 +27,8 @@
   "homepage": "https://github.com/ateixeira/mern-stack#readme",
   "devDependencies": {
     "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
   }
 }
