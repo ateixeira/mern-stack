@@ -18,10 +18,19 @@ To create execute: npm init
 
 ### 2.1 - Create ExpressJS dependency
 Add the expressJS dependency executing:
+
 ``npm install express --save``
 
+## 3 - SetUP reactJS and build Hello World app
 
-## 3 - Install & Execute
+### 3.1 - Create react and react-dom dependencies
+Add the expressJS dependency executing:
+
+``npm install react --save``
+``npm install react-dom --save``
+
+
+## 4 - Install & Execute
 On this step you should be able to run the project typing:
 ```
   git clone https://github.com/ateixeira/mern-stack.git
