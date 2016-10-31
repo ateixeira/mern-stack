@@ -18,6 +18,8 @@ On this step you should be able to run the project executing:
   git clone https://github.com/ateixeira/mern-stack.git
   cd mern-stack
   npm install
+  npm install -g webpack
+  npm install -g webpack-dev-server
   npm run build 
   npm start
 ```
