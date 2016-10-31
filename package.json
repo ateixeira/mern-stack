@@ -1,0 +1,27 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "Just another boilerplate code for getting started with MERN stack using Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ateixeira/mern-stack.git"
+  },
+  "keywords": [
+    "MERN",
+    "webpack",
+    "Mongo",
+    "Express",
+    "ReactJS",
+    "NodeJS"
+  ],
+  "author": "André Teixeira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ateixeira/mern-stack/issues"
+  },
+  "homepage": "https://github.com/ateixeira/mern-stack#readme"
+}
