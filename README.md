@@ -12,8 +12,8 @@ This is an example generic code to help you (and me) to get started with the MER
 ### 1.2 - Creating webpack.config.js
 *webpack.config.js* is the Webpack config file, it exports the configuration object on module.exports
 
-### 1.3 - Executing
-On this step you should be able to run the project executing:
+## 2 - Install & Execute
+On this step you should be able to run the project typing:
 ```
   git clone https://github.com/ateixeira/mern-stack.git
   git checkout tags/1-NPM+Webpack
