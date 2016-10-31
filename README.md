@@ -14,11 +14,11 @@ To create execute: npm init
 ### 1.2 - Creating webpack.config.js
 *webpack.config.js* is the Webpack config file, it exports the configuration object on module.exports
 
-## 2 - SetUP expressJS
+## 2 - SetUP very basic expressJS configuration
 
 ### 2.1 - Create ExpressJS dependency
 Add the expressJS dependency executing:
-```npm install express --save``
+``npm install express --save``
 
 
 ## 3 - Install & Execute
