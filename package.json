@@ -2,10 +2,10 @@
   "name": "mern-stack",
   "version": "1.0.0",
   "description": "Just another boilerplate code for getting started with MERN stack using Webpack",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "build": "webpack --optimize-minimize",
-    "start": "webpack-dev-server"
+    "start": "node server"
   },
   "repository": {
     "type": "git",
