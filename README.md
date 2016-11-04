@@ -43,7 +43,27 @@ Add the expressJS dependency executing:
 ``npm install react --save``
 ``npm install react-dom --save``
 
-### 3.2 - Config and create template engine structure
+### 3.2 - Install and config Babel dependencies
+Babel is used to compile JS and transform 
+
+``npm install --save-dev babel-loader babel-core``
+
+On this version I'm going to use React + JSX syntax. 
+
+``$ npm install --save-dev babel-preset-react``
+
+And, why not make transformations to emulate a full es2015 enviroment? Lets install the es2015 preset with:
+
+``npm install babel-preset-es2015 --save-dev``
+
+Finally, lets add Babel presets on .babelrc file as:
+```
+{
+  "presets": ["es2015", "react"]
+}
+```
+
+### 3.3 - Config and create template engine structure
 I chose initially to use handlebars template engine, at first because I already knew it, also because I don't like Jade syntax and finally, because I was looking for layouts/partials structure.
 
 ``npm install express-handlebars --save``
