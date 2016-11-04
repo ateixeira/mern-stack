@@ -9,6 +9,7 @@ var app = express();
 // process.env.PORT lets the port be set by Heroku
 app.set('port', process.env.PORT || 3000);
 // app.set('views', __dirname + '/views');
+app.use('/static', express.static(__dirname + '/build'));
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
