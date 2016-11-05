@@ -16,7 +16,8 @@ On this step you should be able to run the project typing:
   npm start
 ```
 
-# Or, take a look on my steps (this is not a step by step to achieve the final result, it is just giving ideas on each of the topics)
+# Or, take a look on my steps 
+(this is not a step by step to achieve the final result, it is just giving ideas on each of the topics)
 
 ## 1 - SetUP the npm + webpack bundler configs: 
 
