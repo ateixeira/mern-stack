@@ -2,7 +2,7 @@
 Another boilerplate code for getting started with MERN stack using Webpack
 
 ## Introduction
-This is an example generic code to help you (and me) to get started with the MERN (MongoDB, ExpressJS, ReactJS and NodeJS) stack. It will include other usefull technologies that will also be useful on the development process.
+This is an example generic code to help you (and me) to get started with the MERN (MongoDB, ExpressJS, ReactJS and NodeJS) stack. It will include other useful technologies that will also help on the development process.
 
 
 ## Simply Install & Execute
@@ -16,7 +16,7 @@ On this step you should be able to run the project typing:
   npm start
 ```
 
-# Or, follow my steps
+# Or, take a look on my steps (this is not a step by step to achieve the final result, it is just giving ideas on each of the topics)
 
 ## 1 - SetUP the npm + webpack bundler configs: 
 
