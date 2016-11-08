@@ -1,13 +1,22 @@
 var path = require('path');
 var express = require('express');
 var exphbs  = require('express-handlebars');
+var mongoose = require('mongoose');
+
 
 var app = express();
 
+var serverConfig = require('./config');
 
-// set the port of our application
-// process.env.PORT lets the port be set by Heroku
-app.set('port', process.env.PORT || 3000);
+// Connection to MongoDB
+mongoose.connect(serverConfig.mongo_url, (error) => {
+  if (error) {
+    console.error('Please verify if Mongodb is up and running!');
+    throw error;
+  }
+
+});
+
 // app.set('views', __dirname + '/views');
 app.use('/static', express.static(__dirname + '/build'));
 
@@ -16,6 +25,6 @@ app.set('view engine', 'handlebars');
 
 require('./src/routes')(app);
 
-app.listen(app.get('port'), function () {
-  console.log('MERN stack app listening on port ' + app.get('port') + '!');
+app.listen(serverConfig.port, function () {
+  console.log('MERN stack app listening on port ' + serverConfig.port + '!');
 });
