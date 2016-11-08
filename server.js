@@ -14,9 +14,7 @@ app.use('/static', express.static(__dirname + '/build'));
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
-app.get('/', function (req, res) {
-  res.render('index');
-});
+require('./src/routes')(app);
 
 app.listen(app.get('port'), function () {
   console.log('MERN stack app listening on port ' + app.get('port') + '!');
