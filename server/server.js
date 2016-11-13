@@ -1,12 +1,13 @@
-var path = require('path');
-var express = require('express');
-var exphbs  = require('express-handlebars');
-var mongoose = require('mongoose');
+import path from 'path';
+import express from 'express';
+import exphbs  from 'express-handlebars';
+import mongoose from 'mongoose';
+import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
 
-var app = express();
+import app = express();
 
-var serverConfig = require('./config');
+import serverConfig from './config';
 
 // Connection to MongoDB
 mongoose.connect(serverConfig.mongo_url, (error) => {
