@@ -14,16 +14,15 @@ mongoose.connect(serverConfig.mongo_url, (error) => {
     console.error('Please verify if Mongodb is up and running!');
     throw error;
   }
-
 });
 
-// app.set('views', __dirname + '/views');
-app.use('/static', express.static(__dirname + '/build'));
+// Serve public assets and static content
+app.use('/static', express.static(path.resolve(__dirname, '../build')));
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
-require('./src/routes')(app);
+require('./routes/routes')(app);
 
 app.listen(serverConfig.port, function () {
   console.log('MERN stack app listening on port ' + serverConfig.port + '!');

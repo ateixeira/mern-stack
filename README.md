@@ -20,7 +20,7 @@ On this step you should be able to run the project typing:
 ```
 ## Build the app
 ```
-  npm run dev
+  npm run build
 ```
 ## Run the development server
 ```
