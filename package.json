@@ -5,7 +5,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors --optimize-minimize",
     "start": "nodemon server/server.js",
-    "dev": "npm start"
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
