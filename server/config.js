@@ -7,10 +7,7 @@ const mongoose = require('mongoose');
 module.exports = {
   app: function () {
     const app = express()
-    const publicPath = express.static(path.join(__dirname, 'public'))
-
-    console.log("publicPath:");
-    console.log(path.resolve(__dirname, '../public'));
+    const publicPath = express.static(path.resolve(__dirname, '../public'))
 
     // Defining assets configuration
     app.use('/public', publicPath)
