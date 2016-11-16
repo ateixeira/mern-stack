@@ -25,7 +25,7 @@ module.exports = {
   	mongoose.connect(mongo_url, (error) => {
 	  if (error) {
 	    console.error('Please verify if Mongodb is up and running!');
-	    throw error;
+	    // throw error;
 	  }
 	});
   }
