@@ -10,7 +10,7 @@ module.exports = {
     const publicPath = express.static(path.join(__dirname, 'public'))
 
     // Defining assets configuration
-    app.use('/static', publicPath)
+    app.use('/public', publicPath)
 
     // Templates configuration
 	app.engine('handlebars', exphbs({defaultLayout: 'main'}));
