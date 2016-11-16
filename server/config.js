@@ -9,6 +9,8 @@ module.exports = {
     const app = express()
     const publicPath = express.static(path.join(__dirname, 'public'))
 
+    console.log(publicPath);
+
     // Defining assets configuration
     app.use('/public', publicPath)
 

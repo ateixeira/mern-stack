@@ -3,8 +3,6 @@ const port = process.env.PORT || 3000;
 const app = server_config.app();
 const conn_mongo = server_config.conn_mongo();
 
-console.log(conn_mongo);
-
 require('./routes/routes')(app);
 
 // Development configuration
@@ -24,5 +22,5 @@ if (process.env.NODE_ENV !== 'production') {
 
 // Start the application
 app.listen(port, function () {
-  console.log('MERN stack app listening on port ' + server_config.port + '!');
+  console.log('MERN stack app listening on port ' + port + '!');
 });
