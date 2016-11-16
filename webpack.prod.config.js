@@ -5,7 +5,7 @@ var webpackConfig = {
     devtool: 'source-map',
 
     entry: [
-        "./src/app.js",
+        "./src/app",
     ],
 
     output: {
