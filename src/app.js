@@ -5,7 +5,7 @@ var AppContainer = React.createClass({
   render: function() {
     return (
       <div>
-        Hello Worldd
+        Hello Worldde!
       </div>
     );
   }
