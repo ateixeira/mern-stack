@@ -26,7 +26,7 @@ var webpackConfig = {
                 loader: "babel-loader",
                 test: /\.js$/,
                 exclude: /node_modules/
-            },{ test: /\.scss?$/,
+            },{ test: /\.(css)?$/,
                 loader: 'style!css!sass',
                 include: path.join(__dirname, 'src', 'styles') 
             },{ test: /\.png$/,
