@@ -51,10 +51,13 @@
     "bootstrap": "^3.3.7",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
+    "extract-text-webpack-plugin": "^1.0.1",
     "mongoose": "^4.6.6",
+    "node-sass": "^3.13.0",
     "react": "^15.3.2",
     "react-bootstrap": "^0.30.6",
     "react-dom": "^15.3.2",
+    "sass-loader": "^4.0.2",
     "webpack": "^1.13.3"
   }
 }
