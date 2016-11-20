@@ -37,7 +37,6 @@
     "postcss": "^5.2.5",
     "postcss-loader": "^1.1.1",
     "precss": "^1.4.0",
-    "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack-dev-middleware": "^1.8.4",
     "webpack-hot-middleware": "^2.13.2"
@@ -58,6 +57,7 @@
     "react-bootstrap": "^0.30.6",
     "react-dom": "^15.3.2",
     "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.3"
   }
 }
