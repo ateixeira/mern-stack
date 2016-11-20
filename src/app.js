@@ -2,29 +2,22 @@ import React from 'react';
 import { render } from 'react-dom'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
+require('./styles/style.scss');
+
+var Cabecalho = require('./components/cabecalho')
+var Conteudo = require('./components/conteudo')
+
 var AppContainer = React.createClass({
-  render: function() {
+    render: function() {
         return (
-	        <Navbar collapseOnSelect fixedTop>
-			    <Navbar.Header>
-			      	<Navbar.Brand>
-			        	<a href="#">ANDRÉ TEIXEIRA</a>
-			     	</Navbar.Brand>
-			     	<Navbar.Toggle />
-			    </Navbar.Header>
-			    <Navbar.Collapse>
-				    <Nav>
-					    <NavItem eventKey={1} href="#">Blog</NavItem>
-					    <NavItem eventKey={2} href="#">Dashboard</NavItem>
-					    <NavItem eventKey={3} href="#">CV</NavItem>
-				    </Nav>
-				</Navbar.Collapse>
-			</Navbar>
+            <div>
+                <Cabecalho />
+                <Conteudo />
+            </div>
         );
-  }
+    }
 });
 
 render(
-  <AppContainer />,
-  document.getElementById('container')
+    <AppContainer />, document.getElementById('container')
 );
