@@ -25,7 +25,7 @@ As well as:
 On this step you should be able to run the project typing:
 ```
   git clone https://github.com/ateixeira/mern-stack.git
-  git checkout tags/4-hot-assets-build-first-layout-and-sass
+  git checkout tags/3-Handlebars-ReactJS
   cd mern-stack
   npm install
 ```
@@ -35,5 +35,11 @@ On this step you should be able to run the project typing:
 ```
 ## Run the development server
 ```
-  npm run dev
+  npm start
 ```
+## Production deployment
+The webpack configuration file was separeted in **webpack.prod.config.js** and **webpack.dev.config.js**. On server/server.js file, based on the env variable ENV_NODE, the proper configuration file is loaded on webpack hot/dev middleware in case of development env.
+
+When deployed to production (first tests were made using Heroku), the npm **postintall** directive when called runs **npm run build**, that sets the ENV_NODE to production and bundles the app with the --config flag pointing to the production config file.
+
+To try it on heroku just push the app up and it will transparently be set-UP.
