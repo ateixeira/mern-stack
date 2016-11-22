@@ -25,7 +25,7 @@ As well as:
 On this step you should be able to run the project typing:
 ```
   git clone https://github.com/ateixeira/mern-stack.git
-  git checkout tags/3-Handlebars-ReactJS
+  git checkout tags/4-hot-assets-build-first-layout-and-sass
   cd mern-stack
   npm install
 ```
