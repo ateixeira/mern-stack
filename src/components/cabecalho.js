@@ -8,7 +8,7 @@ module.exports = React.createClass({
 	        <Navbar collapseOnSelect fixedTop>
 			    <Navbar.Header>
 			      	<Navbar.Brand>
-			        	<a href="#">ANDRÉ TEIXEIRA</a>
+			        	<a href="#">MERN-STACK</a>
 			     	</Navbar.Brand>
 			     	<Navbar.Toggle />
 			    </Navbar.Header>
