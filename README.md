@@ -38,8 +38,8 @@ On this step you should be able to run the project typing:
   npm start
 ```
 ## Production deployment
-The webpack configuration file was separeted in **webpack.prod.config.js** and **webpack.dev.config.js**. On server/server.js file, based on the env variable ENV_NODE, the proper configuration file is loaded on webpack hot/dev middleware in case of development env.
+The webpack configuration file was separeted in **webpack.prod.config.js** and **webpack.dev.config.js**. On server/server.js file the proper configuration file is loaded on webpack hot/dev middleware based on the env variable ENV_NODE.
 
-When deployed to production (first tests were made using Heroku), the npm **postintall** directive when called runs **npm run build**, that sets the ENV_NODE to production and bundles the app with the --config flag pointing to the production config file.
+When deployed to production (first tests were made using Heroku), the npm **postintall** script when called runs **npm run build**. The build script sets the ENV_NODE to production and bundles the app with the --config flag pointing to the production config file.
 
-To try it on heroku just push the app up and it will transparently be set-UP.
+To try it on heroku just push the app up and it will be transparently set-UP.
