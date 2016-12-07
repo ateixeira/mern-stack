@@ -6,7 +6,7 @@ const webpackConfig = {
     devtool: 'source-map',
 
     entry: [
-        "./src/app",
+        "./src/index",
     ],
 
     output: {

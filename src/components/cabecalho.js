@@ -1,6 +1,8 @@
 import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
+import { LinkContainer } from 'react-router-bootstrap';
+
 module.exports = React.createClass({
   render: function() {
     return (
@@ -14,9 +16,15 @@ module.exports = React.createClass({
 			    </Navbar.Header>
 			    <Navbar.Collapse>
 				    <Nav>
-					    <NavItem eventKey={1} href="#">Blog</NavItem>
-					    <NavItem eventKey={2} href="#">Dashboard</NavItem>
-					    <NavItem eventKey={3} href="#">CV</NavItem>
+				    	<LinkContainer to="/blog">
+					    	<NavItem eventKey={1} href="#">Blog</NavItem>
+					    </LinkContainer>
+				    	<LinkContainer to="/dashboard">
+					    	<NavItem eventKey={2} href="#">Dashboard</NavItem>
+					    </LinkContainer>
+				    	<LinkContainer to="/cv">
+					    	<NavItem eventKey={3} href="#">CV</NavItem>
+					    </LinkContainer>
 				    </Nav>
 				</Navbar.Collapse>
 			</Navbar>

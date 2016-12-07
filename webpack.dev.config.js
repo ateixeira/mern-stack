@@ -7,7 +7,7 @@ var webpackConfig = {
 
     entry: [
         'webpack-hot-middleware/client',
-        './src/app.js'
+        './src/index.js'
     ],
 
     output: {
