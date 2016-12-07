@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Cabecalho from './cabecalho.js';
-import Conteudo from './conteudo.js';
 
 module.exports = React.createClass({
 
