@@ -1,5 +1,5 @@
-{
-    "POSTS": [{
+const posts = [
+	{
         "id": 3,
         "title": "Lorem Ipsum Sit Amet Dolor Bla", 
         "content": "Mussum Ipsum, cacilds vidis litro abertis. Detraxit consequat et quo num tendi nada. Quem num gosti di mum que vai caçá sua turmis! Diuretics paradis num copo é motivis de denguis. Interagi no mé, cursus quis, vehicula ac nisi. in elementis mé pra quem é amistosis quis leo. A ordem dos tratores não altera o pão duris Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Per aumento de cachacis, eu reclamis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Cevadis im ampola pa arma uma pindureta. Leite de capivaris, leite de mula manquis.",
@@ -17,101 +17,5 @@
         "content": "Ta deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.” Quem num gosti di mum que vai caçá sua turmis! Interagi no mé, cursus quis, vehicula ac nisi. Mais vale um bebadis conhecidiss, que um alcoolatra anonimiss.",
         "date": "Dec, 2016",
         "time": "10:00"
-    }],
-    "COMMENTS": [   {
-      "post":"1",
-      "caption":"comment ",
-   },
-   {
-      "post":"1",
-      "caption":"comment s",
-   },
-   {
-      "post":"1",
-      "caption":"comment !",
-   },
-   {
-      "post":"1",
-      "caption":"comment 🍴",
-   },
-   {
-      "post":"1",
-      "caption":"comment t",
-   },
-   {
-      "post":"2",
-      "caption":"comment 🇸",
-   },
-   {
-      "post":"2",
-      "caption":"comment i",
-   },
-   {
-      "post":"2",
-      "caption":"comment n'"
-   },
-   {
-      "post":"2",
-      "caption":"comment ⌨",
-   },
-   {
-      "post":"2",
-      "caption":"comment r",
-   },
-   {
-      "post":"2",
-      "caption":"comment 🍜",
-   },
-   {
-      "post":"3",
-      "caption":"comment ️",
-   },
-   {
-      "post":"3",
-      "caption":"comment !",
-   },
-   {
-      "post":"3",
-      "caption":"comment .",
-   },
-   {
-      "post":"3",
-      "caption":"comment '",
-   },
-   {
-      "post":"3",
-      "caption":"comment .",
-   },
-   {
-      "post":"3",
-      "caption":"comment !",
-   },
-   {
-      "post":"3",
-      "caption":"comment 😍",
-   },
-   {
-      "post":"3",
-      "caption":"comment .",
-   },
-   {
-      "post":"3",
-      "caption":"comment .",
-   },
-   {
-      "post":"3",
-      "caption":"comment s",
-   },
-   {
-      "post":"3",
-      "caption":"comment s",
-   },
-   {
-      "post":"3",
-      "caption":"comment .",
-   },
-   {
-      "post":"3",
-      "caption":"comment .",
-   }]
-}
+    }
+]
