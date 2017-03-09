@@ -10,6 +10,7 @@ import Blog from './components/blog.js';
 import Dashboard from './components/dashboard.js';
 import Cv from './components/cv.js';
 import Home from './components/home.js';
+import NotFoundPage from './components/notfoundpage.js';
 
 //Import React Router and it's dependencies
 import { Router, Route, IndexRoute } from 'react-router';
@@ -25,6 +26,7 @@ render((
 				<Route path="/blog" component={Blog}/>
 				<Route path="/dashboard" component={Dashboard}/>
 				<Route path="/cv" component={Cv}/>
+				<Route path="*" component={NotFoundPage}/>
 			</Route>
 		</Router>
 	</Provider>
