@@ -4,7 +4,7 @@
   "description": "Just another boilerplate code for getting started with MERN stack using Webpack",
   "scripts": {
     "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors --optimize-minimize",
-    "start": "node server/server.js",
+    "start": "node src/server/server.js",
     "postinstall": "npm run build"
   },
   "repository": {
