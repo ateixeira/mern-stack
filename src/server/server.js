@@ -1,11 +1,15 @@
-const server_config = require('./config.js');
+import React from 'react';
+import { Server } from 'http';
+import { match, RouterContext } from 'react-router';
+import { renderToString } from 'react-dom/server';
+
+import server_config from './config.js';
+import routes from '../routes';
+
 const port = process.env.PORT || 3000;
 const app = server_config.app();
 const conn_mongo = server_config.conn_mongo();
-
-app.get('/', function (req, res) {
-    res.render('index');
-});
+const server = new Server(app);
 
 // Development configuration
 if (process.env.NODE_ENV !== 'production') {
