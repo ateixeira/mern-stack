@@ -15,12 +15,6 @@ function postComments(state = [], action) {
 function comments(state = [], action) {
     if(typeof action.postId !== 'undefined') {
         console.log("COMMENT REDUCER WAS CALLED!")
-        // return {
-        //     // take the current state
-        //     ...state,
-        //     // overwrite this post with a new one
-        //     [action.postId]: postComments(state[action.postId], action)
-        // }
     }
     return state;
 }

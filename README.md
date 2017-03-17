@@ -43,3 +43,12 @@ The webpack configuration file was separeted in **webpack.prod.config.js** and *
 When deployed to production (first tests were made using Heroku), the npm **postintall** directive when called runs **npm run build**, that sets the ENV_NODE to production and bundles the app with the --config flag pointing to the production config file.
 
 To try it on heroku just push the app up and it will transparently be set-UP.
+
+
+## Additional Information
+It's already 4 years since I first read about the possibilities of Javascript taking place as a complete (Full Stack) architecture for web applications. In the last 3 years I gradually started some changes on this way while coding urbanizo.com, at first migrating it's models to [MongoDB](https://www.mongodb.org), as well as using [BackboneJS](http://www.backbonejs.org/) in the whole application interface. I created this project to get used to Node.js, the piece that was missing to take javascript to the whole web stack of one of my projects.
+
+### ~~Isomorphic~~ Universal Javascript
+From now on I will focus **mern-stack** development on a major advantage of Node.js, the capability to run javascript both on **client** and **server**. This ability makes room to a new way of producing javascript that is not enviroment dependent, also known as Universal Javascript.
+
+I will avoid going to far on this subject, since there are lots of very good content about it's advantages on the web, and the purpose of this project is to share an example on how to implement it.
